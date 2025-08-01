@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -333,16 +334,16 @@
             .schedule-grid {
                 grid-template-columns: 1fr;
             }
-            
+
             .calendar-grid {
                 grid-template-columns: 150px repeat(7, 1fr);
                 font-size: 0.75em;
             }
-            
+
             .container {
                 padding: 20px;
             }
-            
+
             .header h1 {
                 font-size: 2em;
             }
@@ -358,6 +359,7 @@
         }
     </style>
 </head>
+
 <body>
     <div class="container">
         <div class="header">
@@ -381,6 +383,236 @@
             <div class="stat-card">
                 <div class="stat-number">4</div>
                 <div class="stat-label">التخصصات المختلفة</div>
+            </div>
+        </div>
+
+        <div class="weekly-calendar">
+            <div class="calendar-header">
+                <h2>🗓️ جدول العمل الأسبوعي المرتب</h2>
+                <p>نظرة شاملة على توفر جميع أعضاء الفريق مرتبة حسب التخصص</p>
+            </div>
+
+            <div class="calendar-grid">
+                <div class="day-header">الموظف / التخصص</div>
+                <div class="day-header">السبت</div>
+                <div class="day-header">الأحد</div>
+                <div class="day-header">الاثنين</div>
+                <div class="day-header">الثلاثاء</div>
+                <div class="day-header">الأربعاء</div>
+                <div class="day-header">الخميس</div>
+                <div class="day-header">الجمعة</div>
+
+                <!-- الباك إند -->
+                <div class="employee-row">
+                    <div class="employee-label">أحمد الخيري<div class="employee-specialty-small">باك إند</div>
+                    </div>
+                    <div class="time-slot available">11:00-18:00<div class="time-hours">2-5 ساعات</div>
+                    </div>
+                    <div class="time-slot available">11:00-18:00<div class="time-hours">2-5 ساعات</div>
+                    </div>
+                    <div class="time-slot available">11:00-18:00<div class="time-hours">2-5 ساعات</div>
+                    </div>
+                    <div class="time-slot available">11:00-18:00<div class="time-hours">2-5 ساعات</div>
+                    </div>
+                    <div class="time-slot available">11:00-18:00<div class="time-hours">2-5 ساعات</div>
+                    </div>
+                    <div class="time-slot available">11:00-18:00<div class="time-hours">2-5 ساعات</div>
+                    </div>
+                    <div class="time-slot unavailable">غير متاح</div>
+                </div>
+
+                <div class="employee-row">
+                    <div class="employee-label">هشام الحسنات<div class="employee-specialty-small">باك إند</div>
+                    </div>
+                    <div class="time-slot available">بعد 15:00<div class="time-hours">3-5+ ساعات</div>
+                    </div>
+                    <div class="time-slot available">بعد 15:00<div class="time-hours">3-5+ ساعات</div>
+                    </div>
+                    <div class="time-slot available">بعد 15:00<div class="time-hours">3-5+ ساعات</div>
+                    </div>
+                    <div class="time-slot available">بعد 15:00<div class="time-hours">3-5+ ساعات</div>
+                    </div>
+                    <div class="time-slot available">بعد 15:00<div class="time-hours">3-5+ ساعات</div>
+                    </div>
+                    <div class="time-slot available">بعد 15:00<div class="time-hours">3-5+ ساعات</div>
+                    </div>
+                    <div class="time-slot unavailable">غير متاح</div>
+                </div>
+
+                <!-- الفرونت إند -->
+                <div class="employee-row">
+                    <div class="employee-label">شهد أبو غولة<div class="employee-specialty-small">فرونت إند</div>
+                    </div>
+                    <div class="time-slot available">بعد 18:00<div class="time-hours">4-6 ساعات</div>
+                    </div>
+                    <div class="time-slot available">بعد 18:00<div class="time-hours">4-6 ساعات</div>
+                    </div>
+                    <div class="time-slot available">بعد 18:00<div class="time-hours">4-6 ساعات</div>
+                    </div>
+                    <div class="time-slot available">بعد 18:00<div class="time-hours">4-6 ساعات</div>
+                    </div>
+                    <div class="time-slot available">بعد 18:00<div class="time-hours">4-6 ساعات</div>
+                    </div>
+                    <div class="time-slot available">بعد 18:00<div class="time-hours">4-6 ساعات</div>
+                    </div>
+                    <div class="time-slot unavailable">غير متاحة</div>
+                </div>
+
+                <div class="employee-row">
+                    <div class="employee-label">أحمد صباح<div class="employee-specialty-small">فرونت إند</div>
+                    </div>
+                    <div class="time-slot available">09:00-17:00<div class="time-hours">2-8 ساعات</div>
+                    </div>
+                    <div class="time-slot available">09:00-17:00<div class="time-hours">2-8 ساعات</div>
+                    </div>
+                    <div class="time-slot available">09:00-17:00<div class="time-hours">2-8 ساعات</div>
+                    </div>
+                    <div class="time-slot available">09:00-17:00<div class="time-hours">2-8 ساعات</div>
+                    </div>
+                    <div class="time-slot available">09:00-17:00<div class="time-hours">2-8 ساعات</div>
+                    </div>
+                    <div class="time-slot available">09:00-17:00<div class="time-hours">2-8 ساعات</div>
+                    </div>
+                    <div class="time-slot unavailable">غير متاح</div>
+                </div>
+
+                <!-- الفلاتر -->
+                <div class="employee-row">
+                    <div class="employee-label">إبراهيم كلاب<div class="employee-specialty-small">فلاتر</div>
+                    </div>
+                    <div class="time-slot available">08:00-18:00<div class="time-hours">4-5 ساعات</div>
+                    </div>
+                    <div class="time-slot available">08:00-18:00<div class="time-hours">4-5 ساعات</div>
+                    </div>
+                    <div class="time-slot available">08:00-18:00<div class="time-hours">4-5 ساعات</div>
+                    </div>
+                    <div class="time-slot available">08:00-18:00<div class="time-hours">4-5 ساعات</div>
+                    </div>
+                    <div class="time-slot available">08:00-18:00<div class="time-hours">4-5 ساعات</div>
+                    </div>
+                    <div class="time-slot available">08:00-18:00<div class="time-hours">4-5 ساعات</div>
+                    </div>
+                    <div class="time-slot available">08:00-18:00<div class="time-hours">4-5 ساعات</div>
+                    </div>
+                </div>
+
+                <div class="employee-row">
+                    <div class="employee-label">محمد العبادلة<div class="employee-specialty-small">فلاتر</div>
+                    </div>
+                    <div class="time-slot unavailable">غير متاح</div>
+                    <div class="time-slot available">10:30-19:00<div class="time-hours">2-6 ساعات</div>
+                    </div>
+                    <div class="time-slot available">10:30-19:00<div class="time-hours">2-6 ساعات</div>
+                    </div>
+                    <div class="time-slot available">10:30-19:00<div class="time-hours">2-6 ساعات</div>
+                    </div>
+                    <div class="time-slot available">10:30-19:00<div class="time-hours">2-6 ساعات</div>
+                    </div>
+                    <div class="time-slot available">10:30-19:00<div class="time-hours">2-6 ساعات</div>
+                    </div>
+                    <div class="time-slot unavailable">غير متاح</div>
+                </div>
+
+                <div class="employee-row">
+                    <div class="employee-label">سعيد صيام<div class="employee-specialty-small">فلاتر</div>
+                    </div>
+                    <div class="time-slot available">09:00-16:30<div class="time-hours">4-8 ساعات</div>
+                    </div>
+                    <div class="time-slot available">09:00-16:30<div class="time-hours">4-8 ساعات</div>
+                    </div>
+                    <div class="time-slot available">09:00-16:30<div class="time-hours">4-8 ساعات</div>
+                    </div>
+                    <div class="time-slot available">09:00-16:30<div class="time-hours">4-8 ساعات</div>
+                    </div>
+                    <div class="time-slot available">09:00-16:30<div class="time-hours">4-8 ساعات</div>
+                    </div>
+                    <div class="time-slot available">09:00-16:30<div class="time-hours">4-8 ساعات</div>
+                    </div>
+                    <div class="time-slot unavailable">غير متاح</div>
+                </div>
+
+                <!-- UI/UX -->
+                <div class="employee-row">
+                    <div class="employee-label">شيماء زقوت<div class="employee-specialty-small">UI-UX</div>
+                    </div>
+                    <div class="time-slot available">10:00-17:00<div class="time-hours">4-5 ساعات</div>
+                    </div>
+                    <div class="time-slot available">10:00-17:00<div class="time-hours">4-5 ساعات</div>
+                    </div>
+                    <div class="time-slot available">10:00-17:00<div class="time-hours">4-5 ساعات</div>
+                    </div>
+                    <div class="time-slot available">10:00-17:00<div class="time-hours">4-5 ساعات</div>
+                    </div>
+                    <div class="time-slot available">10:00-17:00<div class="time-hours">4-5 ساعات</div>
+                    </div>
+                    <div class="time-slot available">10:00-17:00<div class="time-hours">4-5 ساعات</div>
+                    </div>
+                    <div class="time-slot unavailable">غير متاحة</div>
+                </div>
+
+                <div class="employee-row">
+                    <div class="employee-label">صفا أبو وطفة<div class="employee-specialty-small">UI-UX</div>
+                    </div>
+                    <div class="time-slot unavailable">غير متاحة</div>
+                    <div class="time-slot available">12:00-17:00<div class="time-hours">5 ساعات</div>
+                    </div>
+                    <div class="time-slot available">12:00-17:00<div class="time-hours">5 ساعات</div>
+                    </div>
+                    <div class="time-slot available">12:00-17:00<div class="time-hours">5 ساعات</div>
+                    </div>
+                    <div class="time-slot available">12:00-17:00<div class="time-hours">5 ساعات</div>
+                    </div>
+                    <div class="time-slot available">12:00-17:00<div class="time-hours">5 ساعات</div>
+                    </div>
+                    <div class="time-slot unavailable">غير متاحة</div>
+                </div>
+            </div>
+
+            <div class="legend">
+                <div class="legend-item">
+                    <div class="legend-color legend-available"></div>
+                    <span>متاح للعمل</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color legend-unavailable"></div>
+                    <span>غير متاح</span>
+                </div>
+            </div>
+
+            <div
+                style="margin-top: 30px; padding: 20px; background: linear-gradient(135deg, #f8f9fa, #e9ecef); border-radius: 15px;">
+                <h3 style="text-align: center; color: #2c3e50; margin-bottom: 20px;">📊 ملخص التخصصات المرتب</h3>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px;">
+                    <div
+                        style="text-align: center; padding: 15px; background: rgba(231, 76, 60, 0.1); border-radius: 10px; border-right: 4px solid #e74c3c;">
+                        <div style="font-size: 1.5em; color: #e74c3c;">⚙️</div>
+                        <div style="font-weight: bold; color: #2c3e50;">باك إند</div>
+                        <div style="color: #7f8c8d; font-size: 0.9em;">2 مطورين</div>
+                        <div style="color: #e74c3c; font-size: 0.8em; margin-top: 5px;">أحمد الخيري، هشام الحسنات</div>
+                    </div>
+                    <div
+                        style="text-align: center; padding: 15px; background: rgba(52, 152, 219, 0.1); border-radius: 10px; border-right: 4px solid #3498db;">
+                        <div style="font-size: 1.5em; color: #3498db;">🎨</div>
+                        <div style="font-weight: bold; color: #2c3e50;">فرونت إند</div>
+                        <div style="color: #7f8c8d; font-size: 0.9em;">2 مطورين</div>
+                        <div style="color: #3498db; font-size: 0.8em; margin-top: 5px;">شهد أبو غولة، أحمد صباح</div>
+                    </div>
+                    <div
+                        style="text-align: center; padding: 15px; background: rgba(46, 204, 113, 0.1); border-radius: 10px; border-right: 4px solid #2ecc71;">
+                        <div style="font-size: 1.5em; color: #2ecc71;">📱</div>
+                        <div style="font-weight: bold; color: #2c3e50;">فلاتر</div>
+                        <div style="color: #7f8c8d; font-size: 0.9em;">3 مطورين</div>
+                        <div style="color: #2ecc71; font-size: 0.8em; margin-top: 5px;">إبراهيم، محمد العبادلة، سعيد
+                        </div>
+                    </div>
+                    <div
+                        style="text-align: center; padding: 15px; background: rgba(155, 89, 182, 0.1); border-radius: 10px; border-right: 4px solid #9b59b6;">
+                        <div style="font-size: 1.5em; color: #9b59b6;">🎨</div>
+                        <div style="font-weight: bold; color: #2c3e50;">UI/UX</div>
+                        <div style="color: #7f8c8d; font-size: 0.9em;">2 مصممين</div>
+                        <div style="color: #9b59b6; font-size: 0.8em; margin-top: 5px;">شيماء زقوت، صفا أبو وطفة</div>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -696,190 +928,28 @@
                 </div>
             </div>
         </div>
-
-        <div class="weekly-calendar">
-            <div class="calendar-header">
-                <h2>🗓️ جدول العمل الأسبوعي المرتب</h2>
-                <p>نظرة شاملة على توفر جميع أعضاء الفريق مرتبة حسب التخصص</p>
-            </div>
-            
-            <div class="calendar-grid">
-                <div class="day-header">الموظف / التخصص</div>
-                <div class="day-header">السبت</div>
-                <div class="day-header">الأحد</div>
-                <div class="day-header">الاثنين</div>
-                <div class="day-header">الثلاثاء</div>
-                <div class="day-header">الأربعاء</div>
-                <div class="day-header">الخميس</div>
-                <div class="day-header">الجمعة</div>
-
-                <!-- الباك إند -->
-                <div class="employee-row">
-                    <div class="employee-label">أحمد الخيري<div class="employee-specialty-small">باك إند</div></div>
-                    <div class="time-slot available">11:00-18:00<div class="time-hours">2-5 ساعات</div></div>
-                    <div class="time-slot available">11:00-18:00<div class="time-hours">2-5 ساعات</div></div>
-                    <div class="time-slot available">11:00-18:00<div class="time-hours">2-5 ساعات</div></div>
-                    <div class="time-slot available">11:00-18:00<div class="time-hours">2-5 ساعات</div></div>
-                    <div class="time-slot available">11:00-18:00<div class="time-hours">2-5 ساعات</div></div>
-                    <div class="time-slot available">11:00-18:00<div class="time-hours">2-5 ساعات</div></div>
-                    <div class="time-slot unavailable">غير متاح</div>
-                </div>
-
-                <div class="employee-row">
-                    <div class="employee-label">هشام الحسنات<div class="employee-specialty-small">باك إند</div></div>
-                    <div class="time-slot available">بعد 15:00<div class="time-hours">3-5+ ساعات</div></div>
-                    <div class="time-slot available">بعد 15:00<div class="time-hours">3-5+ ساعات</div></div>
-                    <div class="time-slot available">بعد 15:00<div class="time-hours">3-5+ ساعات</div></div>
-                    <div class="time-slot available">بعد 15:00<div class="time-hours">3-5+ ساعات</div></div>
-                    <div class="time-slot available">بعد 15:00<div class="time-hours">3-5+ ساعات</div></div>
-                    <div class="time-slot available">بعد 15:00<div class="time-hours">3-5+ ساعات</div></div>
-                    <div class="time-slot unavailable">غير متاح</div>
-                </div>
-
-                <!-- الفرونت إند -->
-                <div class="employee-row">
-                    <div class="employee-label">شهد أبو غولة<div class="employee-specialty-small">فرونت إند</div></div>
-                    <div class="time-slot available">بعد 18:00<div class="time-hours">4-6 ساعات</div></div>
-                    <div class="time-slot available">بعد 18:00<div class="time-hours">4-6 ساعات</div></div>
-                    <div class="time-slot available">بعد 18:00<div class="time-hours">4-6 ساعات</div></div>
-                    <div class="time-slot available">بعد 18:00<div class="time-hours">4-6 ساعات</div></div>
-                    <div class="time-slot available">بعد 18:00<div class="time-hours">4-6 ساعات</div></div>
-                    <div class="time-slot available">بعد 18:00<div class="time-hours">4-6 ساعات</div></div>
-                    <div class="time-slot unavailable">غير متاحة</div>
-                </div>
-
-                <div class="employee-row">
-                    <div class="employee-label">أحمد صباح<div class="employee-specialty-small">فرونت إند</div></div>
-                    <div class="time-slot available">09:00-17:00<div class="time-hours">2-8 ساعات</div></div>
-                    <div class="time-slot available">09:00-17:00<div class="time-hours">2-8 ساعات</div></div>
-                    <div class="time-slot available">09:00-17:00<div class="time-hours">2-8 ساعات</div></div>
-                    <div class="time-slot available">09:00-17:00<div class="time-hours">2-8 ساعات</div></div>
-                    <div class="time-slot available">09:00-17:00<div class="time-hours">2-8 ساعات</div></div>
-                    <div class="time-slot available">09:00-17:00<div class="time-hours">2-8 ساعات</div></div>
-                    <div class="time-slot unavailable">غير متاح</div>
-                </div>
-
-                <!-- الفلاتر -->
-                <div class="employee-row">
-                    <div class="employee-label">إبراهيم كلاب<div class="employee-specialty-small">فلاتر</div></div>
-                    <div class="time-slot available">08:00-18:00<div class="time-hours">4-5 ساعات</div></div>
-                    <div class="time-slot available">08:00-18:00<div class="time-hours">4-5 ساعات</div></div>
-                    <div class="time-slot available">08:00-18:00<div class="time-hours">4-5 ساعات</div></div>
-                    <div class="time-slot available">08:00-18:00<div class="time-hours">4-5 ساعات</div></div>
-                    <div class="time-slot available">08:00-18:00<div class="time-hours">4-5 ساعات</div></div>
-                    <div class="time-slot available">08:00-18:00<div class="time-hours">4-5 ساعات</div></div>
-                    <div class="time-slot available">08:00-18:00<div class="time-hours">4-5 ساعات</div></div>
-                </div>
-
-                <div class="employee-row">
-                    <div class="employee-label">محمد العبادلة<div class="employee-specialty-small">فلاتر</div></div>
-                    <div class="time-slot unavailable">غير متاح</div>
-                    <div class="time-slot available">10:30-19:00<div class="time-hours">2-6 ساعات</div></div>
-                    <div class="time-slot available">10:30-19:00<div class="time-hours">2-6 ساعات</div></div>
-                    <div class="time-slot available">10:30-19:00<div class="time-hours">2-6 ساعات</div></div>
-                    <div class="time-slot available">10:30-19:00<div class="time-hours">2-6 ساعات</div></div>
-                    <div class="time-slot available">10:30-19:00<div class="time-hours">2-6 ساعات</div></div>
-                    <div class="time-slot unavailable">غير متاح</div>
-                </div>
-
-                <div class="employee-row">
-                    <div class="employee-label">سعيد صيام<div class="employee-specialty-small">فلاتر</div></div>
-                    <div class="time-slot available">09:00-16:30<div class="time-hours">4-8 ساعات</div></div>
-                    <div class="time-slot available">09:00-16:30<div class="time-hours">4-8 ساعات</div></div>
-                    <div class="time-slot available">09:00-16:30<div class="time-hours">4-8 ساعات</div></div>
-                    <div class="time-slot available">09:00-16:30<div class="time-hours">4-8 ساعات</div></div>
-                    <div class="time-slot available">09:00-16:30<div class="time-hours">4-8 ساعات</div></div>
-                    <div class="time-slot available">09:00-16:30<div class="time-hours">4-8 ساعات</div></div>
-                    <div class="time-slot unavailable">غير متاح</div>
-                </div>
-
-                <!-- UI/UX -->
-                <div class="employee-row">
-                    <div class="employee-label">شيماء زقوت<div class="employee-specialty-small">UI-UX</div></div>
-                    <div class="time-slot available">10:00-17:00<div class="time-hours">4-5 ساعات</div></div>
-                    <div class="time-slot available">10:00-17:00<div class="time-hours">4-5 ساعات</div></div>
-                    <div class="time-slot available">10:00-17:00<div class="time-hours">4-5 ساعات</div></div>
-                    <div class="time-slot available">10:00-17:00<div class="time-hours">4-5 ساعات</div></div>
-                    <div class="time-slot available">10:00-17:00<div class="time-hours">4-5 ساعات</div></div>
-                    <div class="time-slot available">10:00-17:00<div class="time-hours">4-5 ساعات</div></div>
-                    <div class="time-slot unavailable">غير متاحة</div>
-                </div>
-
-                <div class="employee-row">
-                    <div class="employee-label">صفا أبو وطفة<div class="employee-specialty-small">UI-UX</div></div>
-                    <div class="time-slot unavailable">غير متاحة</div>
-                    <div class="time-slot available">12:00-17:00<div class="time-hours">5 ساعات</div></div>
-                    <div class="time-slot available">12:00-17:00<div class="time-hours">5 ساعات</div></div>
-                    <div class="time-slot available">12:00-17:00<div class="time-hours">5 ساعات</div></div>
-                    <div class="time-slot available">12:00-17:00<div class="time-hours">5 ساعات</div></div>
-                    <div class="time-slot available">12:00-17:00<div class="time-hours">5 ساعات</div></div>
-                    <div class="time-slot unavailable">غير متاحة</div>
-                </div>
-            </div>
-
-            <div class="legend">
-                <div class="legend-item">
-                    <div class="legend-color legend-available"></div>
-                    <span>متاح للعمل</span>
-                </div>
-                <div class="legend-item">
-                    <div class="legend-color legend-unavailable"></div>
-                    <span>غير متاح</span>
-                </div>
-            </div>
-
-            <div style="margin-top: 30px; padding: 20px; background: linear-gradient(135deg, #f8f9fa, #e9ecef); border-radius: 15px;">
-                <h3 style="text-align: center; color: #2c3e50; margin-bottom: 20px;">📊 ملخص التخصصات المرتب</h3>
-                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px;">
-                    <div style="text-align: center; padding: 15px; background: rgba(231, 76, 60, 0.1); border-radius: 10px; border-right: 4px solid #e74c3c;">
-                        <div style="font-size: 1.5em; color: #e74c3c;">⚙️</div>
-                        <div style="font-weight: bold; color: #2c3e50;">باك إند</div>
-                        <div style="color: #7f8c8d; font-size: 0.9em;">2 مطورين</div>
-                        <div style="color: #e74c3c; font-size: 0.8em; margin-top: 5px;">أحمد الخيري، هشام الحسنات</div>
-                    </div>
-                    <div style="text-align: center; padding: 15px; background: rgba(52, 152, 219, 0.1); border-radius: 10px; border-right: 4px solid #3498db;">
-                        <div style="font-size: 1.5em; color: #3498db;">🎨</div>
-                        <div style="font-weight: bold; color: #2c3e50;">فرونت إند</div>
-                        <div style="color: #7f8c8d; font-size: 0.9em;">2 مطورين</div>
-                        <div style="color: #3498db; font-size: 0.8em; margin-top: 5px;">شهد أبو غولة، أحمد صباح</div>
-                    </div>
-                    <div style="text-align: center; padding: 15px; background: rgba(46, 204, 113, 0.1); border-radius: 10px; border-right: 4px solid #2ecc71;">
-                        <div style="font-size: 1.5em; color: #2ecc71;">📱</div>
-                        <div style="font-weight: bold; color: #2c3e50;">فلاتر</div>
-                        <div style="color: #7f8c8d; font-size: 0.9em;">3 مطورين</div>
-                        <div style="color: #2ecc71; font-size: 0.8em; margin-top: 5px;">إبراهيم، محمد العبادلة، سعيد</div>
-                    </div>
-                    <div style="text-align: center; padding: 15px; background: rgba(155, 89, 182, 0.1); border-radius: 10px; border-right: 4px solid #9b59b6;">
-                        <div style="font-size: 1.5em; color: #9b59b6;">🎨</div>
-                        <div style="font-weight: bold; color: #2c3e50;">UI/UX</div>
-                        <div style="color: #7f8c8d; font-size: 0.9em;">2 مصممين</div>
-                        <div style="color: #9b59b6; font-size: 0.8em; margin-top: 5px;">شيماء زقوت، صفا أبو وطفة</div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
 
     <script>
         // Add hover effects and animations
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', function () {
             const cards = document.querySelectorAll('.employee-card');
             const timeSlots = document.querySelectorAll('.time-slot');
             const sections = document.querySelectorAll('.section-header');
-            
+
             cards.forEach(card => {
-                card.addEventListener('mouseenter', function() {
+                card.addEventListener('mouseenter', function () {
                     this.style.transform = 'translateY(-8px) scale(1.02)';
                 });
-                
-                card.addEventListener('mouseleave', function() {
+
+                card.addEventListener('mouseleave', function () {
                     this.style.transform = 'translateY(0) scale(1)';
                 });
             });
 
             // Add click functionality to time slots
             timeSlots.forEach(slot => {
-                slot.addEventListener('click', function() {
+                slot.addEventListener('click', function () {
                     if (this.classList.contains('available')) {
                         this.style.animation = 'pulse 0.6s ease-in-out';
                         setTimeout(() => {
@@ -948,7 +1018,7 @@
                     hour: '2-digit',
                     minute: '2-digit'
                 });
-                
+
                 // Create clock element if it doesn't exist
                 let clockElement = document.getElementById('live-clock');
                 if (!clockElement) {
@@ -969,14 +1039,15 @@
                     `;
                     document.body.appendChild(clockElement);
                 }
-                
+
                 clockElement.textContent = timeString;
             }
-            
+
             // Update clock every minute
             updateClock();
             setInterval(updateClock, 60000);
         });
     </script>
 </body>
+
 </html>
